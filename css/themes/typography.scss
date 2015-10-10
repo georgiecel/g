@@ -1,0 +1,51 @@
+@mixin font($fontsize) {
+    color: $text;
+    font-family: $primary-font;
+    font-size: $fontsize;
+    font-weight: 300;
+}
+
+@mixin h1($fontsize) {
+    margin: .5rem 0;
+    color: $primary;
+    font-size: $fontsize;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+@mixin h2($fontsize) {
+    color: $primary;
+    font-family: $primary-font;
+    font-size: $fontsize;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+@mixin h3($fontsize) {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: $secondary-font;
+    font-size: $fontsize;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@mixin h4($fontsize) {
+    font-size: $fontsize;
+    font-weight: normal;
+}
+
+@mixin h5($fontsize) {
+    color: $text-light;
+    font-size: $fontsize;
+    font-weight: normal;
+}
+
+@mixin h6($fontsize) {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    color: $text-light;
+    font-family: $secondary-font;
+    font-size: $fontsize;
+    font-weight: 300;
+}

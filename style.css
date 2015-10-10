@@ -1,0 +1,264 @@
+/*
+ * Design for GeorgieLuhur.com
+ */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,300italic,400italic,500italic);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700,400italic);
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  font-family: Roboto, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5; }
+
+body {
+  margin: 0; }
+
+h1 {
+  margin: .5rem 0;
+  color: #50C8C4;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.25; }
+
+h2 {
+  color: #50C8C4;
+  font-family: Roboto, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.25; }
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-family: Karla, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-style: italic; }
+
+h4 {
+  font-size: 1.15rem;
+  font-weight: normal; }
+
+h5 {
+  color: #888;
+  font-size: 1.15rem;
+  font-weight: normal; }
+
+h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #888;
+  font-family: Karla, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 300; }
+
+a {
+  color: #f16c6c;
+  text-decoration: none;
+  transition: color .1s linear; }
+
+a:visited {
+  color: #f16c6c; }
+
+a:hover {
+  color: #444;
+  text-decoration: underline; }
+
+a:active {
+  color: #444;
+  text-decoration: none; }
+
+b,
+strong {
+  font-weight: 500; }
+
+i,
+em {
+  font-weight: 300; }
+
+.site-section {
+  padding: .75rem 0; }
+  .site-section-inner {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 2rem; }
+
+.site-header {
+  overflow: hidden;
+  background: #7cd7d7;
+  font-family: Karla, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.site-navigation {
+  font-size: 1rem;
+  text-align: center; }
+  .site-navigation a {
+    color: #fff; }
+  .site-navigation__link {
+    display: none; }
+  .site-navigation__link--home {
+    display: block;
+    padding: .5rem;
+    transition: all .1s ease-in; }
+    .site-navigation__link--home:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #3c9493;
+      text-decoration: none; }
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list__date {
+    display: block;
+    margin-bottom: .75rem;
+    color: #888;
+    font-size: .9rem; }
+  .list__details {
+    list-style-type: circle; }
+  .list__subheading {
+    display: block;
+    margin: .25rem 0;
+    font-size: .9rem; }
+
+.list--columns {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.intro {
+  padding: 1rem 0; }
+  .intro__headline {
+    font-size: 1.25em; }
+  .intro__photo {
+    display: block;
+    margin: 1rem auto;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 10rem; }
+
+.contact-detail {
+  overflow: hidden;
+  background: #f9f9f9;
+  margin: 1.5rem auto 0;
+  padding: 1rem;
+  font-weight: 500;
+  list-style: none;
+  border-radius: .25rem; }
+  .contact-detail__block {
+    padding: .25rem 0;
+    text-align: center; }
+
+.site-footer {
+  background: #f9f9f9;
+  margin-top: 2rem;
+  padding: .5em 1.25em;
+  color: #888;
+  font-family: Karla, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .9rem; }
+
+@media (min-width: 600px) {
+  .site-footer {
+    text-align: center;
+    padding: .5rem 2rem; }
+
+  .site-navigation {
+    display: block;
+    margin: .75rem auto;
+    padding: 0 3rem; }
+    .site-navigation a {
+      color: #fff; }
+    .site-navigation__link--home {
+      display: inline-block;
+      margin: 0 .5rem;
+      padding: .25rem .5rem .25rem 2.5rem;
+      background: url(images/hg-logo.png) no-repeat 0.5rem center;
+      background-size: auto 1.5rem;
+      border-radius: .25rem;
+      transition: background-color .15s linear; }
+
+  .site-section {
+    padding: 1.5rem 0; }
+    .site-section-inner {
+      padding: 0 3rem; } }
+@media (min-width: 850px) {
+  body {
+    font-size: 1.2rem;
+    line-height: 1.67; }
+
+  h1 {
+    font-size: 1.85rem; }
+
+  h2 {
+    font-size: 1.85rem;
+    text-align: center; }
+
+  h3 {
+    font-size: 1.6rem; }
+
+  h4 {
+    font-size: 1.2rem; }
+
+  h5 {
+    font-size: 1.2rem; }
+
+  h6 {
+    font-size: 1.2rem; }
+
+  .contact-detail {
+    margin-top: 2.5rem;
+    padding: 2rem; }
+    .contact-detail__block {
+      float: left;
+      width: 33.3%;
+      padding: 0; }
+
+  .intro__headline {
+    font-size: 1.5rem; }
+  .intro__photo {
+    float: right;
+    margin-left: 1.5rem;
+    width: 12.5rem;
+    height: 12.5rem; }
+
+  .list {
+    margin: 0 3rem; }
+    .list__subheading {
+      font-size: 1.25rem; }
+    .list__date {
+      font-size: 1rem; }
+    .list__details {
+      margin: 0 2rem; }
+    .list__block {
+      float: left;
+      width: 50%;
+      text-align: center; }
+
+  .list--columns {
+    overflow: hidden;
+    margin: 0 3rem; }
+
+  .site-navigation {
+    max-width: 62rem;
+    padding: 0 1.5rem;
+    text-align: left; }
+    .site-navigation__link {
+      display: inline-block;
+      margin: 0 .5rem;
+      padding: .25rem .5rem;
+      border-radius: .25rem;
+      transition: background-color .15s linear; }
+      .site-navigation__link:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #3c9493;
+        text-decoration: none; }
+
+  .site-section-inner {
+    max-width: 66rem; } }
+@media (min-width: 1150px) {
+  .site-navigation {
+    box-sizing: border-box;
+    padding: 0 .5rem; } }

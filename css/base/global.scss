@@ -1,0 +1,65 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    @include font(1em);
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    @include h1(1.25rem);
+}
+
+h2 {
+    @include h2(1.2rem);
+}
+
+h3 {
+    @include h3(1.2rem);
+}
+
+h4 {
+    @include h4(1.15rem);
+}
+
+h5 {
+    @include h5(1.15rem);
+}
+
+h6 {
+    @include h6(1.15rem);
+}
+
+a {
+    color: $link;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+a:visited {
+    color: $link-visited;
+}
+
+a:hover {
+    color: $link-hover;
+    text-decoration: underline;
+}
+
+a:active {
+    color: $link-hover;
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+i,
+em {
+    font-weight: 300;
+}

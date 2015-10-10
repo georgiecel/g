@@ -1,0 +1,160 @@
+@media (min-width: 600px) {
+
+    .site-footer {
+        text-align: center;
+        padding: .5rem 2rem;
+    }
+
+    .site-navigation {
+        display: block;
+        margin: .75rem auto;
+        padding: 0 3rem;
+
+        a {
+            color: $link-inverted;
+        }
+
+        &__link--home {
+            display: inline-block;
+            margin: 0 .5rem;
+            padding: .25rem .5rem .25rem 2.5rem;
+            background: url(images/hg-logo.png) no-repeat .5rem center;
+            background-size: auto 1.5rem;
+            border-radius: .25rem;
+            transition: background-color .15s linear;
+        }
+
+    }
+
+    .site-section {
+        padding: 1.5rem 0;
+
+        &-inner {
+            padding: 0 3rem;
+        }
+
+    }
+
+}
+
+@media (min-width: 850px) {
+
+    body {
+        font-size: 1.2rem;
+        line-height: 1.67;
+    }
+
+    h1 {
+        font-size: 1.85rem;
+    }
+
+    h2 {
+        font-size: 1.85rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    .contact-detail {
+        margin-top: 2.5rem;
+        padding: 2rem;
+
+        &__block {
+            float: left;
+            width: 33.3%;
+            padding: 0;
+        }
+
+    }
+
+    .intro {
+
+        &__headline {
+            font-size: 1.5rem;
+        }
+
+        &__photo {
+            float: right;
+            margin-left: 1.5rem;
+            width: 12.5rem;
+            height: 12.5rem;
+        }
+
+    }
+
+    .list {
+        margin: 0 3rem;
+
+        &__subheading {
+            font-size: 1.25rem;
+        }
+
+        &__date {
+            font-size: 1rem;
+        }
+
+        &__details {
+            margin: 0 2rem;
+        }
+
+        &__block {
+            float: left;
+            width: 50%;
+            text-align: center;
+        }
+
+    }
+
+    .list--columns {
+        overflow: hidden;
+        margin: 0 3rem;
+    }
+
+    .site-navigation {
+        max-width: 62rem;
+        padding: 0 1.5rem;
+        text-align: left;
+
+        &__link {
+            display: inline-block;
+            margin: 0 .5rem;
+            padding: .25rem .5rem;
+            border-radius: .25rem;
+            transition: background-color .15s linear;
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: $primary-dark;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .site-section-inner {
+        max-width: 66rem;
+    }
+
+}
+
+@media (min-width: 1150px) {
+
+    .site-navigation {
+        box-sizing: border-box;
+        padding: 0 .5rem;
+    }
+
+}

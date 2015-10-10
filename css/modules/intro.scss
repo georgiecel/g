@@ -1,0 +1,16 @@
+.intro {
+    padding: 1rem 0;
+
+    &__headline {
+        font-size: 1.25em;
+    }
+
+    &__photo {
+        display: block;
+        margin: 1rem auto;
+        width: 6.5rem;
+        height: 6.5rem;
+        border-radius: 10rem;
+    }
+
+}

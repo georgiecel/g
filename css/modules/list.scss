@@ -1,0 +1,29 @@
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__date {
+        display: block;
+        margin-bottom: .75rem;
+        color: $text-light;
+        font-size: .9rem;
+    }
+
+    &__details {
+        list-style-type: circle;
+    }
+
+    &__subheading {
+        display: block;
+        margin: .25rem 0;
+        font-size: .9rem;
+    }
+
+}
+
+.list--columns {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
