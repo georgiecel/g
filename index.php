@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Georgie Luhur – front-end web developer and concert photographer based in Sydney, Australia.">
         <meta name="viewport" content="initial-scale=1.0, width=device-width">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.min.css">
     </head>
     <body>
         <header class="site-header">
